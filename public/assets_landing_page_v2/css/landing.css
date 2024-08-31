@@ -1,0 +1,512 @@
+/* ---------------------- font ----------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* -----------------------------------------end - font */
+
+/* ---------------------------- first section ------------------------ */
+
+#first_section {
+    background: #243413;
+    padding: 5px;
+    /* position: fixed; */
+    /* width: 100%; */
+}
+
+/* --------- icon ----------- */
+
+.icon-img-1 {
+    width: 30px;
+}
+
+.icon-img-2 {
+    width: 30px;
+    margin-left: 10px;
+}
+
+/* --------------- end - icon */
+
+/* --------- title ----------- */
+
+.title {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* --------------- end - title */
+
+/* --------- login ----------- */
+
+.login_btn_div {
+    padding-top: 10px;
+}
+
+.login_btn {
+    display: block;
+    margin: auto;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #243413;
+    transition: all 0.5s ease-in-out;
+}
+
+.login_btn:hover {
+    background-color: green;
+    color: white;
+}
+
+/* --------------- end - login */
+
+/* ---------------------------------------------- end - first section  */
+
+/* ---------------------------- second section ------------------------ */
+
+#second_section {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/fallen_pic.png);
+}
+
+/* ------------ nav --------------- */
+
+nav {
+    background-color: rgba(0, 55, 0, 0.8);
+    /* top: 60px; */
+    /* width: 100%; */
+}
+
+#nav-link {
+    color: white;
+    font-weight: 600;
+}
+
+li.nav-item {
+    padding: 0 25px;
+}
+
+/* ---------------------- end - nav */
+
+/* ------------ welcome ----------- */
+
+.welcome_part {
+    height: 765px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.welcome_part_h1 {
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px;
+    font-weight: 400;
+    font-size: 40px;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    right: 30%;
+}
+
+.welcome_before_end {
+    background-image: url(../images/welcome_before_end.png);
+    margin-top: -60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+}
+
+.counter {
+    padding: 65px 120px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.counter .right-counter {
+}
+
+.counter .left-counter {
+}
+
+.counter-content {
+}
+
+.counter-content h3 {
+    font-weight: 700;
+    color: #0e5b01;
+}
+
+.counter-content h2 {
+    color: white;
+    background: #365f0b;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* ----------------------------------------------- end - second section */
+
+/* ---------------------------- third section ------------------------ */
+
+#third_section {
+    padding: 25px 0;
+    width: 100%;
+    background: #e5e5e5;
+}
+
+.third_section_p {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.third_section_button {
+    display: block;
+    margin: auto;
+    border: 0;
+    background: #538200;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.statistic-title {
+    text-align: center;
+    color: #0e5b01;
+    font-weight: 600;
+}
+
+.statistic-data {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px 70px;
+}
+
+.statistic-data .statistic-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.statistic-content .es-class {
+}
+
+.es-class h4 {
+    color: white;
+    padding: 13px 30px;
+    background: linear-gradient(180deg, #538200 0%, #243413 100%);
+    border-radius: 65px;
+    margin: 30px 0;
+}
+
+.statistic-content .es-class-content {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 20px;
+}
+
+.es-class-content .upper-class {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.es-class-content .lower-class {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.upper-class h5 {
+    color: white;
+    background: #50b771;
+    padding: 30px;
+    text-align: center;
+    height: 140px;
+    margin: 10px;
+    width: 300px; /* margin: auto; */
+    border-radius: 15px;
+}
+
+.lower-class h5 {
+    padding: 30px;
+    color: white;
+    background: #a56c59;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    border-radius: 15px;
+    height: 140px;
+}
+
+.statistic-graph {
+}
+
+/* ----------------------------------------------- end - third section */
+
+/* ---------------------------- forth section ------------------------ */
+
+.forth_section_header {
+    text-align: center;
+    padding: 15px 0;
+    font-weight: 700;
+    background: #243413;
+    color: white;
+    margin: 0;
+}
+
+#forth_section {
+}
+
+.left-part {
+    background: #243413;
+}
+
+.forth-section-first {
+    background-image: url(../images/test_1.png);
+    width: 100%;
+    background-size: cover;
+    background-color: #243413;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.sixth-section-first {
+    background-image: url(../images/test_3.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-color: #243413;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.forth-section-first__div {
+    padding: 60px 10px;
+}
+
+.forth-section-first__title {
+    color: white;
+}
+
+.forth-section-first__content {
+    color: white;
+}
+
+/* ----------------------------------------------- end - forth section */
+
+/* ---------------------------- fifth section ------------------------ */
+
+.fifth-section-first {
+    background-image: url(../images/test_2.png);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+/* ----------------------------------------------- end - fifth section  */
+
+/* ----------------------------- sixth section ------------------------ */
+
+#sixth_section {
+    background-image: url(../images/footer_img.png);
+
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer-left-content {
+    padding: 50px;
+}
+
+.footer-left-content__heading {
+    color: white;
+}
+
+.footer-left-content__p {
+    color: white;
+}
+
+.footer-right-content {
+    padding: 50px;
+    display: grid;
+    justify-content: right;
+}
+
+.footer_pic_1 {
+    width: 50px;
+}
+
+.footer_pic_2 {
+    width: 100px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+/* ----------------------------------------------- end - sixth section  */
+
+/* --------------------------------------------- media screen for tab ( portrait ) ------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* ------------------------------------------------------------------------------------ end - media screen for tab ( portrait )  */
+
+/* ------------------------------------------ media screen for tab (landscape) ------------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* For landscape layouts only */
+}
+
+/* -------------------------------------------------------------------------------------- end - media screen for tab (landscape) */
+
+/* --------------------------------------------- media screen for tab (pro) portrait ------------------------------------------- */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* ---------------------------------------------------------------------------------- end - media screen for tab (pro) portrait */
+
+/* ---------------------------------------------- media screen for tab ( pro ) landscape --------------------------------------- */
+
+@media only screen and (min-device-width: 1366px) and (min-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ------------------------------------------------------------------------------- end - media screen for tab ( pro ) landscape  */
+
+/* ------------------------------------------------------- media screen for mobile devices ------------------------------------- */
+@media only screen and (max-width: 600px) {
+    .es-class {
+        margin: auto;
+    }
+
+    .upper-class h5 {
+        width: 200px;
+    }
+
+    .lower-class h5 {
+        width: 200px;
+    }
+
+    /* --------- title ----------- */
+    .title {
+        display: none;
+    }
+
+    /* --------------- end - title */
+    /* ------- login btn --------- */
+    .login_btn {
+        display: block;
+        margin: auto;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: white;
+        font-size: 10px;
+        background-color: #243413;
+        transition: all 0.5s ease-in-out;
+    }
+
+    /* ------ end -  login btn ---- */
+    /* ------------ welcome ----------- */
+    .welcome_part {
+        padding: 100px 40px;
+    }
+
+    .welcome_part_h1 {
+        text-align: center;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.2);
+        padding: 5px;
+        font-weight: 400;
+        font-size: 20px;
+        left: 11%;
+        right: 11%;
+    }
+
+    /* ----------------- end - welcome  */
+    .third_section_p {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    nav {
+        background-color: rgba(0, 55, 0, 0.9);
+        /* top: 43px; */
+        width: 100%;
+    }
+
+    .footer-right-content {
+        padding: 0px;
+        display: grid;
+        justify-content: center;
+    }
+}
+
+/* --------------------------------------------------------------------------------------  end - media screen for mobile devices */
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1366px) and (device-height: 768px) {
+    .upper-class h5 {
+        width: 140px;
+    }
+
+    .lower-class h5 {
+        width: 140px;
+    }
+
+    .login_btn {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
+
+/*-------------------- chart start -----------*/
+.chart-div {
+    display: flex;
+    justify-content: space-between;
+    /*flex-direction: row;*/
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 600px) {
+    .chart-div {
+        flex-direction: column;
+    }
+
+    .bar-chart {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 270px;
+    }
+
+    .favourite-author {
+        margin-bottom: -25px;
+    }
+}
+
+/*-------------------- chart end -----------*/

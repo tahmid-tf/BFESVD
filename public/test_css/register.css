@@ -1,0 +1,7 @@
+body {
+    background-image: url(../assets_login/images/us_forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}

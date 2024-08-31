@@ -1,0 +1,464 @@
+body {
+  background-color: #e5e5e5;
+}
+
+/* ---------------------- font ----------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+/* -----------------------------------------end - font */
+
+/* ---------------------------- first section ------------------------ */
+
+#first_section {
+  background: #243413;
+  padding: 5px;
+  /* position: fixed; */
+  /* width: 100%; */
+}
+
+.dashboard-text {
+  font-weight: 700px;
+  margin-left: 15px;
+}
+
+.tutorial{
+  display: flex;
+  justify-content: center;
+}
+/* ---------------------- left side div ----------------------- */
+.logo a:hover {
+  text-decoration: none;
+}
+
+.left-side-div-title {
+  padding-bottom: 20px;
+}
+
+.title a{
+  color: aliceblue;
+}
+
+.title a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.left-side-div-padding {
+  /*padding: 50px;*/
+  margin-top: 30px;
+  /*background-color: white;*/
+}
+
+.left-side-div-title {
+  text-align: center;
+  color: #220082;
+  font-size: 19px;
+}
+
+.task_completed {
+  padding-top: 5px;
+}
+
+.completed_this_month {
+  padding-top: 30px;
+}
+
+/* ----------------- to do list ------------- */
+
+.todo-list-div {
+  border: 1px solid #220082;
+  border-radius: 15px 15px 15px 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.survey_report_pdf {
+  border: 1px solid #9f9f9f;
+  display: inline;
+  padding: 10px 20px;
+  color: #3a3a3a;
+  font-size: 10px;
+}
+
+.move_in_progress_div {
+  margin-top: 10px;
+}
+
+.move_in_progress_button {
+  display: block;
+  margin-left: auto;
+  background: #220082;
+  border-radius: 50px;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  font-size: 10px;
+  margin-top: 30px;
+}
+
+/* ------------------------ end - to do list  */
+
+/* ---------------- in progress div ------- -- */
+
+.in-progress-div {
+  margin-top: 10px;
+}
+
+.in-progress-header {
+  font-size: 22px;
+}
+
+.in-progress-p {
+  font-size: 13px;
+  color: #e5e5e5;
+}
+
+/* ---------------- end ------in progress div  */
+
+/* ------------------------------------------ end left side div */
+
+/* --------------------- right side div ----------------------- */
+
+.right-side-div-padding {
+  background-color: white;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.right-side-div-title {
+  text-align: center;
+  color: #609513;
+  font-size: 19px;
+}
+
+/* ---------- right side div button -------- */
+
+.right-side-button-div {
+  margin-top: 10%;
+}
+
+.view-data-button {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  width: 200px;
+  border: 0;
+  border-radius: 50px;
+  background-color: #538200;
+  color: white;
+  padding: 10px 0;
+}
+
+/* ------------ end - right side div button  */
+
+/* ----------------- settings -------------- */
+
+.settings-margin {
+  /*margin-top: 30px;*/
+}
+
+.settings-title {
+  text-align: center;
+  color: #009797;
+  font-size: 19px;
+}
+
+/* -------------------------- end - settings */
+
+/* --------- change-password-div ----------- */
+
+.change-password-div {
+  display: block;
+  margin: auto;
+  width: 90%;
+  border: 1px solid #009797;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+input {
+  display: block;
+  margin: auto;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: #c4c4c4;
+  margin-top: 20px;
+  /* width: auto; */
+  max-width: 100%;
+}
+
+input::placeholder {
+  color: #c4c4c4;
+  text-align: center;
+}
+
+input[type="submit"] {
+  background-color: #009797;
+  width: 80%;
+  border-radius: 50px;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 0;
+  color: white;
+  font-size: 13px;
+}
+
+/* -------------- end - change-password-div  */
+
+/* -------------------------------------- end - right side div  */
+
+/* --------- icon ----------- */
+
+.icon-img-1 {
+  width: 30px;
+}
+
+.icon-img-2 {
+  width: 30px;
+  margin-left: 10px;
+}
+
+/* --------------- end - icon */
+
+/* --------- title ----------- */
+
+.title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* --------------- end - title */
+
+/* --------- logout ----------- */
+.logout{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* --------- login ----------- */
+
+.login_btn_div {
+  margin: 0 5px;
+  padding-top: 10px;
+  align-content: space-between;
+}
+
+.login_btn {
+  display: block;
+  margin: auto;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+  background-color: #243413;
+  transition: all 0.5s ease-in-out;
+}
+
+.login_btn:hover {
+  background-color: green;
+  color: white;
+}
+
+/* --------------- end - login */
+
+/* -- container padding ----- */
+
+.container-padding {
+  margin-top: 3%;
+}
+
+/* - end - container padding - */
+
+/*----------- table section for approved data list start ----------------*/
+.table-title{
+  display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: #538200;
+    color: #FFFFFF;
+    align-items: center;
+}
+.view-nav{
+  display: flex;
+  justify-content: space-between;
+}
+.view-nav button{
+  background: #538200;
+  margin: 5px 15px 15px 0px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.view-option{display: flex;}
+.view-option a{
+  background: #538200;
+  margin: 5px 15px 15px 0px;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.view-option a:hover{
+  background-color: green;
+  color: white;
+  text-decoration: none;
+}
+.title-left{
+  text-align: center;
+}
+.title-left h4{
+  margin: 0;
+  padding: 15px;
+}
+.title-right {
+  background: white;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.title-right a {
+  text-decoration: none;
+  color: #538200;
+  font-weight: 600;
+}
+.title-right a:hover {
+  text-decoration: none;
+  color: green;
+  font-weight: 600;
+}
+.table-title-right {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  color: #538200;
+}
+.table-title-right a:hover{
+  text-decoration: none;
+  color: #538200;
+}
+
+table, th, td {
+  border: 3px solid #e5e5e5;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: white;
+  padding: 10px;
+}
+th {
+  text-align: center !important;
+}
+td {
+  text-align: center;
+}
+/*----------- table section for approved data list end ----------------*/
+
+/* MAP VIEW */
+#map {
+  height: 80vh;
+  margin-bottom: 50px;
+}
+/* ---------------------------------------------- end - first section  */
+
+/* --------------------------------------------- media screen for tab ( portrait ) ------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+
+/* ------------------------------------------------------------------------------------ end - media screen for tab ( portrait )  */
+
+/* ------------------------------------------ media screen for tab (landscape) ------------------------------------------------- */
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
+
+/* -------------------------------------------------------------------------------------- end - media screen for tab (landscape) */
+
+/* --------------------------------------------- media screen for tab (pro) portrait ------------------------------------------- */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+/* ---------------------------------------------------------------------------------- end - media screen for tab (pro) portrait */
+
+/* ---------------------------------------------- media screen for tab ( pro ) landscape --------------------------------------- */
+
+@media only screen and (min-device-width: 1366px) and (min-device-height: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+}
+
+/* ------------------------------------------------------------------------------- end - media screen for tab ( pro ) landscape  */
+
+/* ------------------------------------------------------- media screen for mobile devices ------------------------------------- */
+@media only screen and (max-width: 600px) {
+  /* --------- title ----------- */
+
+  .title {
+    display: none;
+  }
+
+  /* --------------- end - title */
+
+  /* ------- login btn --------- */
+
+  .login_btn {
+    display: block;
+    margin: auto;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 10px;
+    background-color: #243413;
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* ------ end -  login btn ---- */
+
+  .right-side-mobile {
+    margin-top: 10%;
+  }
+
+  .view-data-button {
+    width: 100%;
+  }
+
+  input {
+    font-size: 10px;
+  }
+
+  input[type="submit"] {
+    font-size: 10px;
+  }
+
+  .task_completed {
+    font-size: 13px;
+  }
+
+  .completed_this_month {
+    font-size: 13px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------  end - media screen for mobile devices */
+
+/* ---------------------------------------- media screen for 1366 x 768 desktop screens ---------------------------------------- */
+
+@media only screen and (device-width: 1366px) and (device-height: 768px) {
+    .login_btn{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* --------------------------------------------------------------------------- end - media screen for 1366 x 768 desktop screens */
